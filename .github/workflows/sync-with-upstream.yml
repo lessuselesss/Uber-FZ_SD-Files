@@ -21,15 +21,24 @@ jobs:
       
       - name: Sync Main Branch
         run: |
-          # Replace UPSTREAM_OWNER and UPSTREAM_REPO with the actual upstream repository details
+          # Add upstream remote
           git remote add upstream https://github.com/UberGuidoZ/Flipper.git
+          
+          # Fetch all branches from upstream
           git fetch upstream
+          
+          # Explicitly check out and merge the main branch
           git checkout main
           git merge upstream/main
           git push origin main
       
       - name: Sync Device Branch
         run: |
+          # Explicitly check out the device branch
           git checkout device
+          
+          # Merge upstream main into device branch
           git merge upstream/main
+          
+          # Push the updated device branch
           git push origin device
