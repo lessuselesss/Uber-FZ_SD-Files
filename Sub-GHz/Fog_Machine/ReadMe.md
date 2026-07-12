@@ -2,7 +2,7 @@
 
 FCC ID: &emsp; &emsp; &nbsp; ZIFIL-1<br>
 Frequency: &ensp; &nbsp; 315 Mhz<br>
-FCC Reports: &nbsp; <a href="https://fcc.io/ZIFIL">https://fcc.io/ZIFIL</a><br>
+FCC Reports: &nbsp; <a href="https://fccid.io/ZIFIL-1">https://fccid.io/ZIFIL-1</a><br>
 <br>
 There was an original upload to @UberGuidoZ repo by @the0bone for a Theefun TFM01 fog machine. Thanks!<br>
 <br>

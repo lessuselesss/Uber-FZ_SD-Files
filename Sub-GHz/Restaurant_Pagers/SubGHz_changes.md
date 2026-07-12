@@ -1,4 +1,4 @@
-https://github.com/flipperdevices/flipperzero-firmware/tree/dev/firmware/targets/f7/furi_hal/furi_hal_subghz.c
+https://github.com/flipperdevices/flipperzero-firmware/tree/dev/targets/f7/furi_hal/furi_hal_subghz.c
 
 Change `furi_hal_subghz_is_frequency_valid` and `furi_hal_subghz_set_frequency_and_path`
 
